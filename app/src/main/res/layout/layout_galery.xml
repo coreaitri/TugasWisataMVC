@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="195dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:background="@mipmap/ic_launcher"
+                android:layout_width="match_parent"
+                android:scaleType="matrix"
+                android:layout_height="195dp"
+                />
+
+
+            <TextView
+                android:id="@+id/tvMap"
+                android:text="map"
+                android:layout_marginLeft="12dp"
+                android:layout_marginBottom="15dp"
+                android:padding="4dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:background="@drawable/textview_round_border_background"
+                android:textSize="10sp"
+                android:textColor="@android:color/white"
+                android:layout_width="25dp"
+                android:layout_height="25dp"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvPanorama"
+                android:textSize="18sp"
+                android:textColor="#1A1A1A"
+                android:text="JSI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:text="Bogor"
+                android:id="@+id/tvCity"
+                android:layout_below="@id/tvPanorama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:background="#414141"
+            android:layout_marginBottom="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>

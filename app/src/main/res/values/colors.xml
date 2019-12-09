@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e58f65</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="light_blue_gray">#f3f3f3</color>
+    <color name="colorGreenTea">#d0f0c0</color>
+    <color name="colorBlueMountain">#4e6f8e</color>
+    <color name="colorBlueSea">#006994</color>
+    <color name="colorNightSky">#546bab</color>
+    <color name="colorSunrise">#FF8100</color>
+    <color name="colorGreenTree">#42692f</color>
+    <color name="colorSunset">#bd1159</color>
+    <color name="colorWhite">#ffffff</color>
+
+</resources>
